@@ -1,0 +1,10 @@
+Structure UserInformation is  .net core web API application.
+User contain information id,name, surname,fatherInfo, motherInfo.
+id-long
+name-string,
+surname-string,
+fatherInfo, motherInfo-string.
+User can create,update,delete and get his information.
+I use repository pattern and my application 4 layer.
+HTTP-> Api controller -> service -> repository -> db.
+I add swagger for you to see the functional and test api. 
